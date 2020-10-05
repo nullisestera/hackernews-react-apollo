@@ -12,6 +12,16 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
+## RUN BACKEND SERVER & INSTALL CORS EXTENSION
+
+In order to fetch from GraphQL Server, you must first run your Go Server: https://github.com/nullisestera/go-graphql-hackernews
+
+`go run server.go`
+
+You must install Google Chrome extension to allow CORS
+
+https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=es
+
 ### `yarn test`
 
 Launches the test runner in the interactive watch mode.<br />
